@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Version>2.3.0</Version>
+    <VersionSuffix>$(VersionSuffix)</VersionSuffix>
+    <Version Condition=" '$(VersionSuffix)' != '' ">$(Version)-$(VersionSuffix)</Version>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <Authors>Sergey Pismennyi, Dmitry Fokin, Evgeniy Zyatyna, Evgeniy Cherniaev</Authors>
+    <Company>MONQ Digital lab</Company>
+    <Title>Monq.Core.DbModelTracking.Models</Title>
+    <PackageId>Monq.Core.DbModelTracking.Models</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageTags>library abstract model</PackageTags>
+    <PackageProjectUrl>https://github.com/MONQDL/Monq.Core.DbModelTracking.Models</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MONQDL/Monq.Core.DbModelTracking.Models</RepositoryUrl>
+    <Description>Models library for the Monq.Core.DbModelTracking library.</Description>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <Nullable>enable</Nullable>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+
+</Project>
